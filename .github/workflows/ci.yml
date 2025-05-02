@@ -8,8 +8,8 @@ on:
     types:
       - opened
       - synchronize
-  schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+  # schedule:
+  #   - cron: "0 */6 * * *" # every 6 hours
 
 env:
   EVAL_MODELS: "gpt-4o,gpt-4o-mini,claude-3-5-sonnet-latest"
